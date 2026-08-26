@@ -1,0 +1,12 @@
+How to connect
+1. Open an SSH client
+
+2. Locate or download your private key file
+
+3. Ensure your key is not publicly viewable
+
+chmod 400 "AwsInstance-key.pem"
+
+4. Connect to your instance using its Public DNS
+
+ssh -i "AwsInstance-key.pem" ec2-user@ec2-3-21-33-80.us-east-2.compute.amazonaws.com
