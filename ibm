@@ -1,0 +1,25 @@
+To https://github.com/Krishna002142/FirstRepo.git
+ * [new branch]      krishna -> krishna
+[root@ip-172-31-17-108 FirstRepo]# git log --oneline
+278d186 (HEAD -> krishna, origin/krishna) ibm
+3781237 azure
+989cb7b aws
+d97e910 (origin/developer, developer) data added file
+734d680 data added index
+05e5b82 (origin/main, origin/HEAD, main) java file data added
+9c40d4d styles.css
+9853a78 index.html
+d6bdd57 app.java
+6e37586 Initial commit
+[root@ip-172-31-17-108 FirstRepo]# git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[root@ip-172-31-17-108 FirstRepo]# git log --oneline
+05e5b82 (HEAD -> main, origin/main, origin/HEAD) java file data added
+9c40d4d styles.css
+9853a78 index.html
+d6bdd57 app.java
+6e37586 Initial commit
+[root@ip-172-31-17-108 FirstRepo]#
+[root@ip-172-31-17-108 FirstRepo]#
+[root@ip-172-31-17-108 FirstRepo]#
